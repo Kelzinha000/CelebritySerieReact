@@ -10,6 +10,7 @@ import junKyung from './img/HanJunKyung.jpg'
 import jinChaeHee from './img/jinChaeHee.jpg'
 import ohMinHye from './img/ohMinHye.jpg'
 import yoonSiEun from './img/yoonSiEun.jpg'
+import Angela from './img/Angela.jpg'
 
 
 const Personagens = () =>{
@@ -33,7 +34,7 @@ const Personagens = () =>{
        <ContainerImg>
        <BoxPersonagens >
        <ImgPersonagens src={jinChaeHee} alt="" />
-       <H1Personagens>jinChaeHee</H1Personagens>
+       <H1Personagens>Jin Chae-Hee</H1Personagens>
        </BoxPersonagens>
        </ContainerImg>
 
@@ -48,6 +49,13 @@ const Personagens = () =>{
        <BoxPersonagens >
        <ImgPersonagens src={yoonSiEun} alt="" />
        <H1Personagens>Yoon Si Eun</H1Personagens>
+       </BoxPersonagens>
+       </ContainerImg>
+      
+       <ContainerImg>
+       <BoxPersonagens >
+       <ImgPersonagens src={Angela} alt="" />
+       <H1Personagens>Angela</H1Personagens>
        </BoxPersonagens>
        </ContainerImg>
            
