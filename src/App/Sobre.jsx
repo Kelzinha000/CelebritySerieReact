@@ -1,20 +1,46 @@
 
-import { TextSobre, CardSobre, ContainerSobre, TituloSobre } from "./Styles/App";
+import { 
+     CardSobre,
+      ContainerSobre,
+       TituloSobre,
+       LinkYoutube,
+       LinkH1,
+       DivLink,
+       IconPlay,
+       ContainerLinkETextSobre, 
+       TextSobre
+     
+       } from "./Styles/App";
 import cardImg from './img/CelebrityCard.jpg'
+import iconPlay from './img/iconplay.png'
+
+
 
 const Sobre = ()=>{
     return(
         <>
         <TituloSobre>SOBRE</TituloSobre>
     <ContainerSobre>
-        
        <CardSobre src={cardImg} alt="" />
+       
+       <ContainerLinkETextSobre>
+       
+       <DivLink>
+       <LinkYoutube href="https://www.youtube.com/watch?v=1UjzpEnpIqM"><LinkH1> <IconPlay src={iconPlay} alt="" />Acesse Para Mais</LinkH1></LinkYoutube>
+       </DivLink>
+       
        <TextSobre>
-       Seo A-ri conquista sucesso, fama e poder nas redes sociais da noite para o dia. Mas logo descobre que o glamoroso mundo dos influenciadores pode ter consequências mortais.
+        Minissérie |
+       Temporadas: 1 |
+       Epsódios: 12 |
+       Drama |
+       Classificação : +16
+
        </TextSobre>
        
+       </ContainerLinkETextSobre>
     </ContainerSobre>
-
+   
         </>
     )
 }

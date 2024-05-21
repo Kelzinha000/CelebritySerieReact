@@ -7,24 +7,29 @@ import styled from "styled-components";
    carnationPink : ' hsl(332, 100%, 80%)',
    midNigthBue: ' hsl(240, 59%, 31%)',
    lspisLazuli: ' hsl(211, 43%, 38%)',
-   white: '#fff'
+   white: '#fff',
+   whiteBabyBlue :'#ddf5ff'
 }
 
 export const Nav = styled.nav`
 margin: 0;
-padding: 30px;
+padding: 25px;
 background-image: linear-gradient(to left, ${cores.carnationPink}, ${cores.lspisLazuli}, ${cores.licorice});
 justify-content: space-between;
 
+
 `
+
 
 export const ImgTitulo = styled.img`
 width: 270px;
 height: 75px;
 
 ` 
+
 export const ContainerImg = styled.section`
-float: left;
+display: inline-block;
+
 
 
 & :hover{
@@ -37,17 +42,17 @@ float: left;
 export const BoxPersonagens = styled.div`
 text-align: center;
 padding: 10px;
-justify-content: center;
-align-items: center;
-background-color: ${cores.white};
+background-color:${cores.whiteBabyBlue};
 margin: 10px;
-
-
+border-radius: 20px 0 25px 0;
+border: solid 3px ${cores.licorice};
 
 `
 export const ImgPersonagens = styled.img`
 width: 250px;
 height: 250px;
+border-radius: 20px 0 25px 0;
+border: solid 3px ${cores.licorice};
 
 `
 
@@ -62,25 +67,26 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 20px;
+letter-spacing: 6px;
 
 
 `
 export const CardSobre = styled.img`
-width: 350px;
-height: 520px;
+width: 370px;
+height: 540px;
 border-radius:10px ;
-
+margin-bottom:30px;
 
 `
-export const TextSobre = styled.p`
+export const TextSobre = styled.div`
 color: white;
-width: 500px;
+width: 550px;
 height: 150px;
-display: inline-block;
+display: flex;
 padding-left: 30px;
+padding-right: 30px;
 font-size: 20px;
 align-items: center;
-display: flex;
 border: solid ${cores.carnationPink} ;
 border-radius:20px 0 20px 0 ;
 margin-left: 10px;
@@ -90,13 +96,93 @@ margin-left: 10px;
 export const TituloSobre = styled.h1`
 color: ${cores.carnationPink};
 justify-content: center;
-align-items: center;
 display: flex;
 padding: 50px;
+letter-spacing: 6px;
 
 `
-export const ContainerSobre = styled.div`
+
+export const ContainerSobre = styled.p`
 display: flex;
 justify-content: center;
 
+
 `
+export const ContainerLinkETextSobre = styled.div`
+display: flex;
+flex-direction: column;
+padding-left: 20px;
+gap: 30px;
+
+
+`
+
+export const LinkYoutube = styled.a`
+display: flex;
+`
+export const LinkH1 = styled.h1`
+   color: ${cores.white};
+   font-size:30px;
+   
+`
+export const DivLink = styled.div`
+border: solid 2px ${cores.white};
+width: 350px;
+height: 50px; 
+border-radius: 0 20px  0 20px;
+background-image:linear-gradient(to left,${cores.carnationPink},${cores.midNigthBue});
+margin: 20px;
+margin-left :80px;
+
+
+& :hover{
+   transition:0.1s;
+   color: ${cores.lspisLazuli};
+  
+}
+
+`
+export const IconPlay = styled.img`
+width: 20px;
+height: 22px;
+padding-right: 4px;
+`
+
+export const HomeBackground = styled.img`
+
+`
+export const TextoHome = styled.h1`
+color:${cores.white};
+margin-top: 50px;
+
+
+`
+export const TextoHomeSerie = styled.p`
+color: white;
+width: 550px;
+height: 250px;
+display: flex;
+padding-left: 30px;
+padding-right: 30px;
+font-size: 25px;
+align-items: center;
+border: solid ${cores.carnationPink} ;
+border-radius:20px 0 20px 0 ;
+margin-left: 10px;
+border-left-width:10px;
+border-bottom-width:10px;
+margin-top:30px;
+
+`
+export const SectionHome = styled.section`
+display:flex;
+justify-content: space-between;
+margin-left:100px;
+font-size: 30px;
+`
+
+
+// export const DivFooter = styled.footer`
+// background-image:linear-gradient(to left,${cores.carnationPink},${cores.midNigthBue});
+// align-items: end;
+// `
