@@ -24,19 +24,22 @@ justify-content: space-between;
 export const ImgTitulo = styled.img`
 width: 270px;
 height: 75px;
+padding-left:50px
 
 ` 
 
 export const ContainerImg = styled.section`
 display: inline-block;
-
-
+justify-content: center;
+align-items: center;
 
 & :hover{
    background-color: #a5a5a5 ; 
    transition: 0.1s;
 
-} `
+}
+`
+ 
 
 
 export const BoxPersonagens = styled.div`
@@ -46,7 +49,6 @@ background-color:${cores.whiteBabyBlue};
 margin: 10px;
 border-radius: 20px 0 25px 0;
 border: solid 3px ${cores.licorice};
-
 `
 export const ImgPersonagens = styled.img`
 width: 250px;
@@ -179,6 +181,22 @@ display:flex;
 justify-content: space-between;
 margin-left:100px;
 font-size: 30px;
+`
+export const CentralizarPersonagens = styled.section`
+justify-content: center;
+align-items: center;
+margin-left: 90px;
+`
+export const H1Pagina404 = styled.h1`
+background-image: linear-gradient(to bottom, ${cores.carnationPink}, steelblue, turquoise);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 150px;
+`
+export const ContainerPagina404 = styled.div`
+justify-content: center;
+display: flex;
+
 `
 
 

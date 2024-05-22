@@ -32,7 +32,7 @@ const Sobre = ()=>{
        <TextSobre>
         Minissérie |
        Temporadas: 1 |
-       Epsódios: 12 |
+       Episódios: 12 |
        Drama |
        Classificação : +16
 

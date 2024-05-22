@@ -13,6 +13,7 @@ import Personagens from './Personagens'
 import Home from './Home'
 import Header from "./Header"
  import Footer from "./Footer"
+import Pagina404 from "./Pagina404"
 
 const App = () =>{
     return(
@@ -28,6 +29,7 @@ const App = () =>{
             <Route path='/' element={<Home/>} />
             <Route path='/sobre' element={<Sobre/>}/>
             <Route path='/Personagens' element={<Personagens/>}/>
+            <Route path='*' element={<Pagina404/>}/>
         </Routes>
         
         

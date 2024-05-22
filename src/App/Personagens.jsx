@@ -4,7 +4,7 @@ import { ImgPersonagens,
     H1Personagens, 
     ContainerImg,
     TituloPersonagem,
-    
+    CentralizarPersonagens
 } from './Styles/App';
 import hari from './img/ha-ri.jpg'
 import junKyung from './img/HanJunKyung.jpg'
@@ -23,7 +23,7 @@ const Personagens = () =>{
         <>
     <TituloPersonagem>PERSONAGENS</TituloPersonagem>
     
-
+       <CentralizarPersonagens>
        <ContainerImg>
        <BoxPersonagens >
        <ImgPersonagens src={hari} alt="" />
@@ -89,7 +89,7 @@ const Personagens = () =>{
        </BoxPersonagens>
        </ContainerImg>
            
-           
+       </CentralizarPersonagens>
        
      
         </>
