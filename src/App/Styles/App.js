@@ -65,7 +65,6 @@ border: solid 3px ${cores.licorice};
 export const H1Personagens = styled.h1`
 color: ${cores.midNigthBue};
 padding: 10px;
-
 `
 export const TituloPersonagem = styled.h1`
 color: ${cores.carnationPink};
@@ -202,6 +201,76 @@ export const ContainerPagina404 = styled.div`
 justify-content: center;
 display: flex;
 
+`
+export const SectionLogin = styled.section`
+justify-content: center;
+align-items: center;
+display: block;
+display: flex;
+margin:  50px 500px ;
+max-width: 600px;
+gap: 70px;
+margin-bottom: 20%;
+
+
+`
+export const H1Login = styled.h1`
+color: white;
+font-size: 70px;
+
+`
+export const LabelLogin = styled.label`
+  display: flex;
+ 
+
+
+`
+
+export const InputLogin  = styled.input`
+ border-radius: 0 25px 0 25px;
+    border-color:hsl(332, 100%, 80%) ;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.548);
+    margin: 10px;
+  ` 
+   
+
+  export const button = styled.button`
+  
+  height: 30px;
+    width: 80px;
+    color: white;
+    display: block;
+    background-color: hsl(332, 100%, 80%) ;
+   `
+export const ButtonLogin = styled.button`
+ background-color: ${cores.carnationPink};
+ margin: 20px;
+ color: white;
+ width: 140px;
+ height: 40px;
+ border-radius: 10px;
+ border: none;
+ justify-content: center;
+ align-items: center;
+ margin-left:30px;
+
+ &:hover{
+ background-color: hsl(120, 27%, 52%) ;
+ cursor: pointer;
+ } 
+`
+export const FormLogin = styled.form`
+ background-color: rgba(240, 248, 255, 0.578);
+;
+height: 300px;
+width: 450px;
+justify-content: center;
+align-items: center;
+padding: 40px;
+border-radius:10px;
 `
 
 

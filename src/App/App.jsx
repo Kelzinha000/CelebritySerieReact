@@ -14,6 +14,7 @@ import Home from './Home'
 import Header from "./Header"
  import Footer from "./Footer"
 import Pagina404 from "./Pagina404"
+import Login from "./Login"
 
 
 const App = () =>{
@@ -31,6 +32,7 @@ const App = () =>{
             <Route path='/sobre' element={<Sobre/>}/>
             <Route path='/Personagens' element={<Personagens/>}/>
             <Route path='*' element={<Pagina404/>}/>
+            <Route path='/login' element={<Login/>}/>
         </Routes>
         
         
