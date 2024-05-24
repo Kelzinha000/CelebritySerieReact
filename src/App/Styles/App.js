@@ -36,6 +36,7 @@ align-items: center;
 & :hover{
    background-color: #a5a5a5 ; 
    transition: 0.1s;
+   
 
 }
 `
@@ -49,6 +50,9 @@ background-color:${cores.whiteBabyBlue};
 margin: 10px;
 border-radius: 20px 0 25px 0;
 border: solid 3px ${cores.licorice};
+
+
+
 `
 export const ImgPersonagens = styled.img`
 width: 250px;
@@ -78,6 +82,7 @@ width: 370px;
 height: 540px;
 border-radius:10px ;
 margin-bottom:30px;
+
 
 `
 export const TextSobre = styled.div`

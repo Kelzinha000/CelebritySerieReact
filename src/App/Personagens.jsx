@@ -25,7 +25,7 @@ const Personagens = () =>{
     
        <CentralizarPersonagens>
        <ContainerImg>
-       <BoxPersonagens >
+       <BoxPersonagens>
        <ImgPersonagens src={hari} alt="" />
        <H1Personagens>Seo A-ri</H1Personagens>
        </BoxPersonagens>
